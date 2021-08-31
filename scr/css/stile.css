@@ -5,12 +5,12 @@
 }
 
 .container{
-    width: 1140px;
+    width: 80%;
     margin: 0 auto;
 }
 
 .promo{
-    height: 900px;
+    height: 60%;
     background: url('../img/bg/bg1.png') center center/ cover no-repeat; 
     padding: 39px 0 62px 0;
 }
