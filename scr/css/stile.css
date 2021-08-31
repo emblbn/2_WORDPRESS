@@ -146,15 +146,17 @@ h2.waiting_heather{
 }
 
 .waiting_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin-top: 45px;
 }
 
 .waiting .waiting_wrapper .waiting_item{
-    display: inline-block;
-    vertical-align: top;
-    margin: 0 15px;
+    margin: 25px 15px;
     width: 339px;
     text-align: center;
+
 }
 
 .waiting_descr{
