@@ -5,7 +5,8 @@
 }
 
 .container{
-    width: 80%;
+    position: relative;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -77,7 +78,7 @@ h2.title{
     font-weight: 700;
 }
 
-.promo .promo_btn{
+.promo_btn{
     display: block;
     margin: 53px auto;
     width: 313px;
@@ -115,12 +116,12 @@ h2.title{
 }
 
 .waiting{
-    height: 604px;
+    min-height: 604px;
     background-color: #efefef;
     padding: 85px 0 75px 0;
 }
 
-h2.waiting_heather{
+h2.waiting_heather, .project_title{
     text-align: center;
     font-size: 30px;
     font-weight: 400;
@@ -128,7 +129,7 @@ h2.waiting_heather{
     color: #252525;
 }
 
-.whaiting__divided{
+.waiting__divided{
     width: 212px;
     height: 4px;
     background-color: #f9bf3b;
@@ -148,7 +149,7 @@ h2.waiting_heather{
 .waiting_wrapper{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     margin-top: 45px;
 }
 
@@ -159,7 +160,7 @@ h2.waiting_heather{
 
 }
 
-.waiting_descr{
+.waiting_descr, .project_descr{
     margin-top: 33px;
     color:#4a4a4a;
     font-style: 15px;
@@ -170,3 +171,177 @@ h2.waiting_heather{
 .waiting_item .waiting_img{
     width: 100%;
 }
+
+.optimization{
+    min-height: 550px;
+    padding: 120px 0 107px 0; 
+}
+
+.optimization_header{
+    margin-left: 580px;
+    color: #299cbd; 
+    font-style: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.optimization_text{
+    margin-left: 580px;
+    margin-top: 25px;
+    color: #4a4a4a;
+    font-style: 17px;
+    font-weight: 300;
+    line-height: 27px;
+}
+
+.optimization_text span{
+    font-weight: 700;
+}
+
+.optimization_img{
+    position: absolute;
+    top: -54px;
+    left: -100px;
+    z-index: -1;
+}
+
+.project{
+    background: url('../img/bg/bg2.png') center center/cover no-repeat;
+    min-height: 447px;
+    padding: 86px 79px ;
+}
+
+h2.project_title{
+    color: white;
+    text-align: center;
+}
+
+.project_container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 41px;   
+}
+
+
+.project_descr{
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    font-style: 17px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.project_round{ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 115px;
+        height: 115px;
+        background-color: #b4e2ff; 
+        border-radius: 100%;
+        margin: 0 auto;
+}
+
+.gift{
+    background-color:#efefef;
+    min-height: 604px;
+    padding: 85px 0 55px 0;
+}
+
+.gift_img{
+    display: block;
+    margin: 0 auto;
+}
+
+.gift_text{
+    margin-top: 30px;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.gift_btn{
+    display: block;
+    width: 313px;
+    margin: 53px auto;
+    padding: 21px 0;
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18) ;
+    border: 4px solid rgba(0, 0, 0, 0.23);
+    background-image: linear-gradient(to top,  #2798b9 0%, #3ab6da 100%);
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+
+.moscow{
+    padding: 85px 0 55px 0;
+}
+
+.moscow_img{
+    display: block;
+    margin: 0 auto;
+}
+
+.moscow_title{
+    margin-top: 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.moscow_text{
+    margin-top: 10px;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    color:  #299cbd;
+    font-weight: 700;
+
+}
+
+.moscow_descr{
+    margin-top: 10px;
+    font-size: 23px;
+    text-align: center;
+    color: #4a4a4a;
+}
+
+footer{
+    background-color:#1a1a1a;
+    min-height: 150px ;
+    padding: 50px 70px;
+}
+
+.footer_item{
+    display: flex;
+    justify-content: center;
+}
+
+.footer_sites{
+    color: #888888;
+    font-size: 15px;
+    
+}
+
+.footer_divider{
+    margin: 0 5px 0 5px;
+    color: #888888;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.footer_contact{
+    margin-top: 7px;
+    color: #888888;
+    font-size: 15px;
+    text-align: center;
